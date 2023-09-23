@@ -3,14 +3,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.programming.techie</groupId>
-        <artifactId>springboot3-observability</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <groupId>com.phoenix.java</groupId>
+        <artifactId>springboot-observability</artifactId>
+        <version>v1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.programming.techie</groupId>
+    <groupId>com.phoenix.java</groupId>
     <artifactId>fraud-detection-service</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>v1</version>
     <name>fraud-detection-service</name>
     <description>fraud-detection-service</description>
     <properties>
