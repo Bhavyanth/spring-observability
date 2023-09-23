@@ -16,7 +16,7 @@ public class FraudDetectionClient {
     public LoanStatus evaluateLoan(int customerId) {
         log.info("Calling Fraud Detection Service for customer id: {}", customerId);
         var response = restClient.get()
-                .uri("/fraud/check?customerId=" + customerId)
+                .uri("/api/fraud/check?customerId=" + customerId)
                 .retrieve()
                 .toEntity(LoanStatus.class)
                 .getBody();
